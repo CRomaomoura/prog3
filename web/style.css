@@ -1,5 +1,28 @@
 
 .container {
-    text-align: center;
-    font-size: 20px;
+    text-align: left;
+    font-size: 15px;
+    margin: 0 0 0 20px;
+    width: 440px;
+}
+.contents {
+    float: left;
+    width: 440px;
+    background: #9FC;
+    margin: 0 0 0 20px;
+}
+.gen {
+    text-align: left;
+    width: 440px;
+}
+.select{
+    text-align: left;
+    margin: 0 0 0 20px;
+    width: 440px;
+}
+.btn {
+    text-align: right;
+    width: 400px;
+    background: #9FC;
+    margin: 0 0 0 20px;
 }
