@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulário de Inscrição</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+    </head>
+    <body>
+        <div>
+            <section class="container">
+                <h1>Preencha os campos abaixo</h1>
+                <form action="cadastro" method="post">
+                    <label>Nome: </label>
+                    <input type="text" name="nome" placeholder="Digite seu nome"/>
+                    <br>
+                    <label>Email: </label>
+                    <input type="text" name="email" placeholder="Digite seu email"/>
+                    <br>
+                    <p> <label> Gênero: </label><br>
+                        Masculino: <input type="radio" name="sexo" value="Masculino" /><br />
+                        Feminino: <input type="radio" name="sexo" value="Feminino"/>
+                    </p>
+                    <select name="select">
+                        <option value="valor1">Sistemas de informação</option> 
+                        <option value="valor2">Analise de sistemas</option>
+                        <option value="valor3">Engenharia de software</option>
+                    </select>
+                    <p> 
+                        <label> Curso: </label>
+                        <br>
+                        Minicurso Banco de dados: <input type="checkbox" name="cursos" value="banco"/><br />
+                        Minicurso JavaScript: <input type="checkbox" name="cursos" value="js"/>
+                    </p>
+                    <button type="submit">Cadastrar</button>
+                </form>               
+            </section>
+        </div>
+    </body>
+</html>
